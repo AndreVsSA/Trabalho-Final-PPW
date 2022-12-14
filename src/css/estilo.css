@@ -151,16 +151,31 @@ display: block;
 .boxq4{
     display: flex;
     background-color:aliceblue;
-    
+    flex-direction: column;
+    padding: 0 20%;
+}
+.texto4 h2{
+    font-size: 2.3em;
+    font-weight: 800;
+    text-align: center;
+}
+.texto4 p{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 400;
 }
 .contato ul li{
-    display: block;
+    
     list-style: none;
     text-decoration: none;
     color:rgb(0, 0, 0);
     font-weight: bold;
     float: left;
     line-height: 50%;
+    display: flex;
+    align-items: center;
+    
+    
 }
 .contato ul li img{
     height: 30px;
@@ -169,5 +184,14 @@ display: block;
     list-style: none;
     text-decoration: none;
     color:rgb(0, 0, 0);
-    
+    display: flex;
+    align-items: center;
+}
+.contato ul{
+    display: flex;
+    gap: 10%;
+   box-sizing: border-box;
+   border: 2px solid black;
+  justify-content: center;
+ 
 }
