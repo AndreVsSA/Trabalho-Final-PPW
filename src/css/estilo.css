@@ -195,3 +195,30 @@ display: block;
   justify-content: center;
  
 }
+@media (max-width: 700px) {
+    .boxq1{
+        flex-direction: column;
+       
+       
+    }
+    .texto1{
+        width: 70%;
+        margin: auto ;
+    }
+    .texto2
+    {
+        margin: 0 15%;
+    }
+    .image2{
+        display: none;
+        
+    }
+    .boxq3{
+        height: 105vh;
+    }
+    .contato ul{
+        gap: 5%;
+        flex-wrap: wrap;
+    }
+   
+}
