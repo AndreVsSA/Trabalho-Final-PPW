@@ -1,0 +1,259 @@
+html, body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+header{
+    display:flex;
+    background-color: rgb(0, 0, 0);
+    height: 75px;
+    padding-left: 5%;
+
+} .cabecalho ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 30px;
+    display: flex;
+    gap: 30px;
+} 
+.cabecalho ul li{
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    float: left;
+    font-size: 1em;
+    
+}
+.cabecalho ul li a{
+    color:rgb(255, 255, 255);
+    list-style: none;
+    text-decoration: none;
+}
+
+.cabecalho img{
+    display: block;
+    float: left;
+    position:relative;
+    
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    
+    justify-content: center ;
+} 
+    
+    
+
+.containerintro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/background.png);
+    background-size: cover;
+    height: 110vh;
+    background-position: center;
+}
+.intro ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 30px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.intro ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+.intro ul li a{
+    color:rgb(255, 255, 255);
+    list-style: none;
+    text-decoration: none;
+}
+.intro p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    
+}
+.intro h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6em;
+    color: white;
+    text-align: center;
+    
+}
+#sc2{
+display: block;
+}
+.boxq1{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    
+}
+.texto1{
+    color: aliceblue;
+    width: 30%;
+    margin:0 15%;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.boxq2{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+   
+}
+.texto2 h2{
+    font-size: 2.3em;
+    font-weight: 800;
+}
+.texto2 p{
+    font-size: 1.3em;
+    font-weight: 400;
+}
+.texto2 p2{
+    font-size: 1.4em;
+    font-weight: 800;
+}
+.boxq3{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+   
+}
+.texto3{
+    color: aliceblue;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.texto3 h2{
+    font-size: 2.3em;
+    font-weight: 800;
+    text-align: center;
+}
+.texto3 p{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+.boxq4{
+    display: flex;
+    background-color:aliceblue;
+    flex-direction: column;
+    padding: 0 20%;
+}
+.texto4 h2{
+    font-size: 2.3em;
+    font-weight: 800;
+    text-align: center;
+}
+.texto4 p{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+.contato ul li{
+    
+    list-style: none;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    float: left;
+    line-height: 50%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.contato ul li img{
+    height: 30px;
+}
+.contato ul li a{
+    list-style: none;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+}
+.contato ul{
+    display: flex;
+    gap: 10%;
+   box-sizing: border-box;
+   border: 2px solid black;
+  justify-content: center;
+  flex-wrap: wrap;
+ 
+}
+.contato ul li{
+    padding: 0 5%;
+}
+@media (max-width: 800px) {
+    .boxq1{
+        flex-direction: column;
+       
+       
+    }
+    .texto1{
+        width: 70%;
+        margin: auto ;
+    }
+    .texto2
+    {
+        margin: 0 15%;
+    }
+    .image2{
+        display: none;
+        
+    }
+    .boxq3{
+        height: 105vh;
+    }
+    .contato ul{
+        gap: 5%;
+        flex-wrap: wrap;
+    }
+    .intro h2{
+        
+        font-size: 3.5em;        
+    }
+    .intro ul li{
+       
+        font-size: 1.3em;
+    }
+    .intro p{
+        
+        font-size: 1.8em;
+        
+        
+    }
+    
+    .texto3{
+        
+        width: 90%;
+
+        }
+        .cabecalho ul li{
+            
+            font-size: .8em;
+            
+        }
+   
+}
