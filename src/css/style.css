@@ -10,7 +10,7 @@ ul {
 }
 
 .layout {
-  width: 600px;
+  width: 300px;
   margin: 10px auto;
   position: relative;
 }
@@ -107,4 +107,12 @@ ul {
     width: 960px;
   }
 
+}
+@media (max-width:700px) {
+  .layout {
+    width: 300px;
+    margin: 5px auto;
+    position: relative;
+  }
+  
 }
