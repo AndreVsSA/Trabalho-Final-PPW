@@ -220,5 +220,26 @@ display: block;
         gap: 5%;
         flex-wrap: wrap;
     }
+    .intro h2{
+        
+        font-size: 3.5em;        
+    }
+    .intro ul li{
+       
+        font-size: 1.3em;
+    }
+    .intro p{
+        
+        font-size: 1.8em;
+        
+        
+    }
+    
+    .texto3{
+        
+        width: 90%;
+
+        }
+       
    
 }
